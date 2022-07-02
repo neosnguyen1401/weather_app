@@ -41,7 +41,7 @@ function App() {
   }
 
   return (
-    <div className="app box-border p-0 m-0 w-full h-screen relative text-white bg-gradient-to-b from-purple-500 to-pink-500">
+    <div className="app box-border p-0 m-0 w-full h-screen relative text-white">
       <div className="search text-center p-6">
         <input className="p-4 w-1/2 text-center text-lg rounded-full border-solid border-2 border-white bg-white/25 placeholder:text-white"
           value={location}
